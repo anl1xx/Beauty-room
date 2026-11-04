@@ -777,6 +777,31 @@
         }
 
         @media (max-width: 768px) {
+            /* Явные фоновые цвета для мобильных устройств */
+            body {
+                background-color: var(--bg-cream);
+            }
+
+            .hero {
+                background: linear-gradient(160deg, var(--bg-cream) 0%, var(--bg-pink) 50%, var(--bg-beige) 100%);
+            }
+
+            .section-alt {
+                background-color: var(--bg-pink);
+            }
+
+            .section-white {
+                background-color: var(--white);
+            }
+
+            .section-beige {
+                background-color: var(--bg-beige);
+            }
+
+            .booking-section {
+                background: linear-gradient(160deg, var(--bg-pink) 0%, var(--bg-beige) 100%);
+            }
+
             .nav-links {
                 display: none;
                 flex-direction: column;
